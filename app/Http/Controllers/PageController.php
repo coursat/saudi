@@ -8,6 +8,6 @@ class PageController extends Controller
 {
     public function home()
     {
-        return "success";
+        return view('visitor.home.content');
     }
 }
