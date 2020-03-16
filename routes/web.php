@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','PageController@home');
 Route::get('/course','CourseController@single');
+Route::get('/subjects','SubjectController@showAll');

@@ -19,9 +19,15 @@
                 <!-- breadcrumbs -->
                 <nav id="breadcrumbs">
                     <ul>
-                        <li><a href="#"> Dashboard </a></li>
-                        <li><a href="#">Page </a></li>
-                        <li>Faq page</li>
+
+
+                        @if(View::hasSection('page_title'))
+                        <li><a href="{{url('')}}">Home</a></li>
+                        <li>@yield('page_title')</li>
+                        @yield('title')
+                        @else
+                        <li>Home</li>
+                        @endif
                     </ul>
                 </nav>
 
