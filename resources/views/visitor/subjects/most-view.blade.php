@@ -11,10 +11,10 @@
 
     <div class="uk-child-width-1-3@s uk-child-width-1-4@m" uk-grid>
         <div>
-            <a href="course-path-level.html" class="skill-card">
+            <a href="{{url('/subjects/courses')}}" class="skill-card">
                 <i class="icon-brand-angular skill-card-icon" style="color:#dd0031"></i>
                 <div>
-                    <h2 class="skill-card-title"> Angular Courses</h2>
+                    <h2 class="skill-card-title"> Front End Courses</h2>
                     <p class="skill-card-subtitle"> 15 courses <span class="skill-card-bullet"></span> 3
                         bundles
                     </p>

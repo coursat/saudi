@@ -1,7 +1,7 @@
 <h4 class="mt-lg-7 mt-4">Recent Courses</h4>
 <div class="uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid>
     <div>
-        <a href="course-path-level.html">
+        <a href="{{url('subject/front_end/Css3/preview')}}">
             <div class="course-path-card">
                 <img src="../assets/images/course/p-1.png" alt="">
                 <div class="course-path-card-contents">

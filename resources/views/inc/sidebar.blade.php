@@ -43,7 +43,7 @@
         </div>
         <div class="page-menu-inner" data-simplebar>
             <ul data-submenu-title="Browse">
-                <li><a href="courses.html"><i class="uil-play-circle"></i> <span> Courses</span></a> </li>
+                <li><a href="{{url('/recent-courses')}}"><i class="uil-play-circle"></i> <span> Courses</span></a> </li>
             <li><a href="{{url('/subjects')}}"><i class="uil-youtube-alt"></i> <span> Subjects</span></a> </li>
             </ul>
             <ul data-submenu-title="User Account">

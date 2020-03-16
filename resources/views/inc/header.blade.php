@@ -23,7 +23,14 @@
 
                         @if(View::hasSection('page_title'))
                         <li><a href="{{url('')}}">Home</a></li>
+                        @if(View::hasSection('parent_parent_page'))
+                        <li><a href="{{url('subjects')}}">@yield('parent_parent_page')</a></li>
+                        @endif
+                        @if(View::hasSection('parent_page'))
+                            <li><a href="{{url('subjects/courses')}}">@yield('parent_page')</a></li>
+                        @endif
                         <li>@yield('page_title')</li>
+
                         @yield('title')
                         @else
                         <li>Home</li>

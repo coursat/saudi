@@ -11,4 +11,8 @@ class SubjectController extends Controller
     {
         return view("visitor.subjects.all");
     }
+    public function subject_courses()
+    {
+        return view("visitor.subjects.subject_courses");
+    }
 }
