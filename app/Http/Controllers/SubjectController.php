@@ -15,4 +15,9 @@ class SubjectController extends Controller
     {
         return view("visitor.subjects.subject_courses");
     }
+    public function playlist()
+    {
+        return view("visitor.course.playlist");
+    }
+
 }

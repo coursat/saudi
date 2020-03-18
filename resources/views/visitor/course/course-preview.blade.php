@@ -5,23 +5,18 @@
 @section('content')
 <div class="mt-lg-4" uk-grid>
     <div class="uk-width-1-4@m">
-        <img src="../assets/images/course/9.png" alt="" class="rounded shadow">
+        <img src="{{url('')}}/assets/images/course/9.png" alt="" class="rounded shadow">
     </div>
     <div class="uk-width-expand">
-        <p class="my-0 uk-text-small">Topic</p>
-        <h3 class="mt-0"> CSS3 Basics </h3>
+        <h1 class="mt-0"> Learn html css javascript jquery in web design for addtional confilct </h1>
         <p> CSS is what makes the web beautiful. It describes how HTML should be displayed and how to
             layout elements. Take this class and get familiar with CSS!
-            <a href="#">Read more</a></p>
+
     </div>
     <div class="uk-width-1-4@m">
-        <h5> Related tags </h5>
-        <div uk-margin>
-            <a href="#" class="mr-1">Web Developments</a>
-            <a href="#" class="mr-1">Angular</a>
-            <a href="#" class="mr-1">React</a>
-            <a href="#" class="mr-1">Swift</a>
-        </div>
+        <a class="play-button" href="{{url('courses/front-end-courses')}}">
+         Start Course
+        </a>
     </div>
 
 </div>
@@ -53,14 +48,14 @@
 
             <div class="path-wrap">
 
-                <div class=" course-grid-slider" uk-slider="finite: true">
+                <div class=" course-grid-slider">
 
                     <ul
-                        class="uk-slider-items uk-child-width-1-3@m uk-child-width-1-5@m uk-grid-match uk-grid">
+                        class="uk-child-width-1-3@m uk-child-width-1-5@m uk-grid-match uk-grid">
                         <li>
                             <div class="course-card completed">
                                 <div class="course-card-thumbnail">
-                                    <img src="../assets/images/course/9.png">
+                                <img src="{{url('')}}/assets/images/course/9.png">
                                     <a href="takecouse.html" class="play-button-trigger show"> </a>
                                     <span class="duration">5:39</span>
                                 </div>
@@ -74,12 +69,12 @@
                         <li>
                             <div class="course-card">
                                 <div class="course-card-thumbnail">
-                                    <img src="../assets/images/course/9.png">
+                                    <img src="{{url('')}}/assets/images/course/9.png">
                                     <a href="takecouse.html" class="play-button-trigger show"> </a>
                                     <span class="duration">2:39</span>
                                 </div>
                                 <div class="course-progressbar">
-                                    <div class="course-progressbar-filler" style="width:25%"></div>
+                                    <div class="course-progressbar-filler" style="width:50%"></div>
                                 </div>
                                 <div class="course-card-body">
                                     <h4> Applying CSS Styles </h4>
@@ -90,7 +85,7 @@
                         <li>
                             <div class="course-card">
                                 <div class="course-card-thumbnail">
-                                    <img src="../assets/images/course/9.png">
+                                    <img src="{{url('')}}/assets/images/course/9.png">
                                     <a href="takecouse.html" class="play-button-trigger show"> </a>
                                     <span class="duration">1:39</span>
                                 </div>
@@ -106,7 +101,7 @@
                         <li>
                             <div class="course-card">
                                 <div class="course-card-thumbnail">
-                                    <img src="../assets/images/course/9.png">
+                                    <img src="{{url('')}}/assets/images/course/9.png">
                                     <a href="takecouse.html" class="play-button-trigger show"> </a>
                                     <span class="duration">2:19</span>
                                 </div>
@@ -122,7 +117,7 @@
                         <li>
                             <div class="course-card">
                                 <div class="course-card-thumbnail">
-                                    <img src="../assets/images/course/9.png">
+                                    <img src="{{url('')}}/assets/images/course/9.png">
                                     <a href="takecouse.html" class="play-button-trigger show"> </a>
                                     <span class="duration">3:39</span>
                                 </div>
@@ -138,7 +133,7 @@
                         <li>
                             <div class="course-card">
                                 <div class="course-card-thumbnail">
-                                    <img src="../assets/images/course/9.png">
+                                    <img src="{{url('')}}/assets/images/course/9.png">
                                     <a href="takecouse.html" class="play-button-trigger show"> </a>
                                     <span class="duration">5:39</span>
                                 </div>
@@ -147,16 +142,11 @@
                                 </div>
                                 <div class="course-card-body">
                                     <h4> CSS variables </h4>
-                                    <p> Giving you native and dynamic styles not possible..</p>
+                                    <p> Giving you native and dynamic styles not possible{{url('')}}</p>
                                 </div>
                             </div>
                         </li>
                     </ul>
-
-                    <a class="uk-position-center-left uk-position-small uk-hidden-hover slidenav-prev"
-                        href="#" uk-slider-item="previous"></a>
-                    <a class="uk-position-center-right uk-position-small uk-hidden-hover slidenav-next"
-                        href="#" uk-slider-item="next"></a>
 
                 </div>
 
