@@ -1,7 +1,7 @@
 @extends('container')
-{{--  @section('page_title', 'CSS3 BASICS')
+@section('page_title', 'CSS3 BASICS')
 @section('parent_page', 'Front End Subject')
-@section('parent_parent_page','Subjects')  --}}
+@section('parent_parent_page','Subjects')
 @section('content')
 <div class="course-details-wrapper course-preview-margin topic-1 uk-light pt-5">
 
