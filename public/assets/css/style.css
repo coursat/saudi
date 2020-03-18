@@ -4562,7 +4562,10 @@ ul.course-curriculum-list {
   margin-left: -4px;
   z-index: 1000;
 }
-
+.course-preview-margin
+{
+    margin:0px -35px;
+}
 @media (max-width: 768px) {
     .play-button
     {
