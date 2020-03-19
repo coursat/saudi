@@ -46,9 +46,16 @@
                 <li><a href="{{url('/recent-courses')}}"><i class="uil-play-circle"></i> <span> Courses</span></a> </li>
             <li><a href="{{url('/subjects')}}"><i class="uil-youtube-alt"></i> <span> Subjects</span></a> </li>
             </ul>
+            <ul data-submenu-title="My Community">
+                <li><a href="user-profile.html"><i class="icon-material-outline-group"></i><span> Web Design  </span></a></li>
+                <li><a href="user-profile.html"><i class="icon-material-outline-group"></i><span> Front End </span></a></li>
+                <li><a href="user-profile-edit.html"><i class="icon-material-outline-group"></i> <span>Back End</span> </a>
+                </li>
+            </ul>
             <ul data-submenu-title="User Account">
+            <li><a href="{{url('mycourses')}}"><i class="icon-feather-bookmark icon-small"></i><span> MY Courses </span></a></li>
                 <li><a href="user-profile.html"><i class="uil-user-circle"></i><span> Profile </span></a></li>
-                <li><a href="user-profile-edit.html"><i class="uil-edit-alt"></i> <span>Account</span> </a>
+                <li><a href="user-profile-edit.html"><i class="uil-edit-alt"></i> <span>Settings</span> </a>
                 </li>
             </ul>
 

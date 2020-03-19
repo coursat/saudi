@@ -12,11 +12,6 @@
 
                 <div class="course-details">
                     <h1> Learn JavaScript From Scratch</h1>
-                    <p> Master JavaScript with the most complete course! Projects
-                        Excellent
-                        course. we
-                        explain the core concepts in javascript that are usually glossed over in other
-                        courses </p>
 
                     <div class="course-details-info mt-4">
                         <ul>
@@ -33,10 +28,7 @@
 
                     <div class="course-details-info">
 
-                        <ul>
-                            <li> Created by <a href="#"> Jonathan Madano </a> </li>
-                            <li> Last updated 10/2019</li>
-                        </ul>
+
 
                     </div>
                 </div>
@@ -696,7 +688,7 @@
                                     class="uil-play"></i> Start </a>
                         </div>
                         <div>
-                            <a href="course-resume.html"
+                        <a href="{{url('/mycourses')}}"
                                 class="btn btn-danger uk-width-1-1 transition-3d-hover"> <i
                                     class="uil-heart"></i> Add wishlist </a>
                         </div>
@@ -712,10 +704,10 @@
                             <span> <i class="uil-award"></i> Certificate </span>
                         </div>
                         <div>
-                            <span> <i class="uil-file-alt"></i> 12 Article </span>
+                            <span> <i class="uil-file-alt"></i> 12 Lesson </span>
                         </div>
                         <div>
-                            <span> <i class="uil-video"></i> Watch Offline </span>
+                            <span> <i class="uil-video"></i> Can Download </span>
                         </div>
                         <div>
                             <span> <i class="uil-award"></i> Certificate </span>

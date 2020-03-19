@@ -67,7 +67,7 @@
 
                         <nav class="responsive-tab">
                             <ul class="text-right">
-                                <li><a href="#" uk-tooltip="title: Download; pos: top">
+                                <li><a href="#" uk-tooltip="title: Learn Without Internet; pos: top">
                                         <i class="icon-feather-download"></i>
                                         <span class="uk-visible@s">Download </span> </a>
                                 </li>

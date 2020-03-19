@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/','PageController@home');
 Route::get('/recent-courses','CourseController@recent');
 Route::get('/subject/front_end/Css3/preview','CourseController@preview');
+Route::get('/mycourses','CourseController@mycourses');
 Route::get('/subjects','SubjectController@showAll');
 Route::get('/subjects/courses','SubjectController@subject_courses');
 Route::get('/courses/front-end-courses','SubjectController@playlist');
