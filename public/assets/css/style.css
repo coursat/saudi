@@ -4176,7 +4176,16 @@ ul.course-curriculum-list {
   padding: 4px 6px;
   margin-right: 5px;
 }
-
+.space-40
+{
+    height:40px;
+}
+.profile-list-item
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display:block;
+}
 /* episode-card */
 .episode-card.course-card .course-card-body {
   padding: 10px 15px;
@@ -4186,7 +4195,10 @@ ul.course-curriculum-list {
   font-size: 14px;
   line-height: 24px;
 }
-
+.episode-card
+{
+    margin-top:30px;
+}
 
 @media (max-width: 640px) {
   .course-card.course-card-list {

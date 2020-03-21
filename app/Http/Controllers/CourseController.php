@@ -18,8 +18,4 @@ class CourseController extends Controller
     {
         return view("visitor.course.course-preview");
     }
-    public function mycourses()
-    {
-        return view("visitor.course.mycourses");
-    }
 }

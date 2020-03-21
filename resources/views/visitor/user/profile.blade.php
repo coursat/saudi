@@ -1,8 +1,8 @@
 @extends("container")
-@section('page_title', 'My Courses')
+@section('page_title', 'Profile')
 @section("content")
 
-
+<div class="space-40"></div>
 <div class="bg-grey  uk-light uk-padding pb-0 rounded shadow">
     <div class="uk-child-width-expand@s uk-text-center" uk-grid>
         <div>
@@ -37,14 +37,182 @@
     <!-- tab 1 -->
     <li class="uk-active  " style="">
 
+        <ul class=" uk-child-width-1-4@m uk-child-width-1-3@s uk-grid">
+            <li>
+                <a href="episode-details.html">
+                    <div class="course-card episode-card animate-this">
+                        <div class="course-card-thumbnail ">
+
+                            <span class="duration">2:39</span>
+                            <img src="../assets/images/episodes/2.png">
+                            <span class="play-button-trigger"></span>
+                        </div>
+                        <div class="course-card-body">
+                            <h4 class="mb-0"> Creating sticky in HTML </h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="episode-details.html">
+                    <div class="course-card episode-card animate-this">
+                        <div class="course-card-thumbnail ">
+
+                            <span class="duration">5:39</span>
+                            <img src="../assets/images/episodes/3.png">
+                            <span class="play-button-trigger"></span>
+                        </div>
+                        <div class="course-card-body">
+                            <h4 class="mb-0"> er Creating a Laravel Package </h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="episode-details.html">
+                    <div class="course-card episode-card animate-this">
+                        <div class="course-card-thumbnail ">
+
+                            <span class="duration">5:39</span>
+                            <img src="../assets/images/episodes/1.png">
+                            <span class="play-button-trigger"></span>
+                        </div>
+                        <div class="course-card-body">
+                            <h4 class="mb-0"> The PHP Singleton class </h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="episode-details.html">
+                    <div class="course-card episode-card animate-this">
+                        <div class="course-card-thumbnail ">
+
+                            <span class="duration">2:39</span>
+                            <img src="../assets/images/episodes/5.png">
+                            <span class="play-button-trigger"></span>
+                        </div>
+                        <div class="course-card-body">
+                            <h4 class="mb-0"> Dev Design Quickie </h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="episode-details.html">
+                    <div class="course-card episode-card animate-this">
+                        <div class="course-card-thumbnail ">
+
+                            <span class="duration">2:39</span>
+                            <img src="../assets/images/episodes/2.png">
+                            <span class="play-button-trigger"></span>
+                        </div>
+                        <div class="course-card-body">
+                            <h4 class="mb-0"> Creating sticky in HTML </h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+
+    </li>
+
+    <!-- tab 2 -->
+    <li class="" style="">
+
+        <ul class=" uk-child-width-1-4@m uk-child-width-1-3@s uk-grid">
+            <li>
+                <a href="episode-details.html">
+                    <div class="course-card episode-card animate-this">
+                        <div class="course-card-thumbnail ">
+
+                            <span class="duration">2:39</span>
+                            <img src="../assets/images/episodes/2.png">
+                            <span class="play-button-trigger"></span>
+                        </div>
+                        <div class="course-card-body">
+                            <h4 class="mb-0"> Creating sticky in HTML </h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="episode-details.html">
+                    <div class="course-card episode-card animate-this">
+                        <div class="course-card-thumbnail ">
+
+                            <span class="duration">5:39</span>
+                            <img src="../assets/images/episodes/3.png">
+                            <span class="play-button-trigger"></span>
+                        </div>
+                        <div class="course-card-body">
+                            <h4 class="mb-0"> er Creating a Laravel Package </h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="episode-details.html">
+                    <div class="course-card episode-card animate-this">
+                        <div class="course-card-thumbnail ">
+
+                            <span class="duration">5:39</span>
+                            <img src="../assets/images/episodes/1.png">
+                            <span class="play-button-trigger"></span>
+                        </div>
+                        <div class="course-card-body">
+                            <h4 class="mb-0"> The PHP Singleton class </h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="episode-details.html">
+                    <div class="course-card episode-card animate-this">
+                        <div class="course-card-thumbnail ">
+
+                            <span class="duration">2:39</span>
+                            <img src="../assets/images/episodes/5.png">
+                            <span class="play-button-trigger"></span>
+                        </div>
+                        <div class="course-card-body">
+                            <h4 class="mb-0"> Dev Design Quickie </h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="episode-details.html">
+                    <div class="course-card episode-card animate-this">
+                        <div class="course-card-thumbnail ">
+
+                            <span class="duration">2:39</span>
+                            <img src="../assets/images/episodes/2.png">
+                            <span class="play-button-trigger"></span>
+                        </div>
+                        <div class="course-card-body">
+                            <h4 class="mb-0"> Creating sticky in HTML </h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+
+    </li>
+
+    <!-- tab 3 -->
+    <li class="" style="">
+
         <div class="uk-child-width-1-3@s uk-child-width-1-4@m" uk-grid>
             <div>
             <a href="{{url('/subjects/courses')}}" class="skill-card">
                     <i class="icon-brand-angular skill-card-icon" style="color:#dd0031"></i>
                     <div>
                         <h2 class="skill-card-title"> Front End Courses</h2>
-                        <p class="skill-card-subtitle"> 15 courses <span class="skill-card-bullet"></span> 3
-                            bundles
+                        <p class="skill-card-subtitle"> 15 courses <span class="skill-card-bullet"></span>
+                            <i class="icon-material-outline-group mr-2"></i>123 Members
                         </p>
                     </div>
                 </a>
@@ -171,18 +339,6 @@
                 </a>
             </div>
         </div>
-
-    </li>
-
-    <!-- tab 2 -->
-    <li class="" style="">
-
-
-    </li>
-
-    <!-- tab 3 -->
-    <li class="" style="">
-
 
     </li>
 
