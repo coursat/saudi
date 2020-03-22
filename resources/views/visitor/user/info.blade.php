@@ -5,7 +5,7 @@
 
 
 
-    <h2>Profile</h2>
+    <h2>Profile  <a class="edit-button" href="{{url('/username/edit-profile')}}"><i class="uil-edit-alt"></i> <span>Edit</span> </a></h2>
 
     <div uk-grid>
         <div class="uk-width-2-5@m">
@@ -94,8 +94,7 @@
             <div class="uk-card-default rounded">
                 <div class="uk-flex uk-flex-between uk-flex-middle py-3 px-4">
                     <h5 class="mb-0"> Account details </h4>
-                                <li><a href="{{url('/username/edit-profile')}}"><i class="uil-edit-alt"></i> <span>Edit</span> </a>
-                                </li>
+
                 </div>
                 <hr class="m-0">
                 <div class="uk-child-width-1-2@s uk-grid-small p-4" uk-grid>

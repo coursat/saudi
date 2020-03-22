@@ -25,3 +25,5 @@ Route::get('/subjects/courses','SubjectController@subject_courses');
 Route::get('/profile','UserController@profile');
 Route::get('/username/info','UserController@info');
 Route::get('/username/edit-profile','UserController@edit');
+/*communities Routes*/
+Route::get('/communities','CommunityController@all');

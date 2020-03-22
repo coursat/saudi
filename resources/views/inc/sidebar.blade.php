@@ -48,7 +48,7 @@
                 <li><a href="{{url('/subjects')}}"><i class="uil-youtube-alt"></i> <span> Subjects</span></a> </li>
             </ul>
             <ul data-submenu-title="My Community">
-                <li><a href="user-profile.html"><i class="icon-material-outline-group"></i><span> All Communities  </span></a></li>
+            <li><a href="{{url('communities')}}"><i class="icon-material-outline-group"></i><span> All Communities  </span></a></li>
                 <li><a href="user-profile.html"><i class="icon-material-outline-group"></i><span> Web Design  </span></a></li>
                 <li><a href="user-profile.html"><i class="icon-material-outline-group"></i><span> Front End </span></a></li>
                 <li><a href="user-profile-edit.html"><i class="icon-material-outline-group"></i> <span>Back End</span> </a>
