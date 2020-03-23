@@ -7,50 +7,58 @@
         <div class="book-popular-card">
             <img src="../assets/images/book/css3.jpg" alt="" class="cover-img">
             <div class="book-details">
-                <a href="#">
+
                     <h4>CSS3 Web Development</h4>
-                </a>
-                <p>Richard Ali </p>
+
+                <p><span class="uil-user-circle"></span> 3620 Members </p>
+                <a href="#" style="color:white !important;" class="link-open" ><span class="open-btn">Open <i class="icon-feather-log-in"></i></span></a>
             </div>
-             <i class="icon-material-outline-group community-icon"></i>
+             <i style="color:white !important;" class="icon-material-outline-group community-icon"></i>
         </div>
     </div>
+
     <div class="uk-grid-margin">
         <div class="book-popular-card">
             <img src="../assets/images/book/css3.jpg" alt="" class="cover-img">
             <div class="book-details">
-                <a href="#">
+
                     <h4>CSS3 Web Development</h4>
-                </a>
-                <p>Richard Ali </p>
+
+                <p><span class="uil-user-circle"></span> 3620 Members </p>
+                <a href="#" style="color:white !important;" class="link-open" ><span class="open-btn">Open <i class="icon-feather-log-in"></i></span></a>
             </div>
-            <i class="icon-material-outline-group community-icon"></i>
+            <i style="color:white !important;" class="icon-material-outline-group community-icon"></i>
         </div>
     </div>
+
     <div class="uk-grid-margin">
         <div class="book-popular-card">
             <img src="../assets/images/book/css3.jpg" alt="" class="cover-img">
             <div class="book-details">
-                <a href="#">
+
                     <h4>CSS3 Web Development</h4>
-                </a>
-                <p>Richard Ali </p>
+
+                <p><span class="uil-user-circle"></span> 3620 Members </p>
+                <a href="#" style="color:white !important;" class="link-open" ><span class="open-btn">Open <i class="icon-feather-log-in"></i></span></a>
             </div>
-            <i class="icon-material-outline-group community-icon"></i>
+            <i style="color:white !important;" class="icon-material-outline-group community-icon"></i>
         </div>
     </div>
+
     <div class="uk-grid-margin">
         <div class="book-popular-card">
             <img src="../assets/images/book/css3.jpg" alt="" class="cover-img">
             <div class="book-details">
-                <a href="#">
+
                     <h4>CSS3 Web Development</h4>
-                </a>
-                <p>Richard Ali </p>
+
+                <p><span class="uil-user-circle"></span> 3620 Members </p>
+                <a href="#" style="color:white !important;" class="link-open" ><span class="open-btn">Open <i class="icon-feather-log-in"></i></span></a>
             </div>
-            <i class="icon-material-outline-group community-icon"></i>
+            <i style="color:white !important;" class="icon-material-outline-group community-icon"></i>
         </div>
     </div>
+
 
 </div>
 @endsection

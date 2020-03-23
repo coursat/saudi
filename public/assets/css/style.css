@@ -46,6 +46,33 @@
     padding: 5px;
     top: -24px;
 }
+.open-btn
+{
+    font-size: 14px;
+    background: green;
+    padding: 0px 10px;
+    float: right;
+    border-radius: 3px;
+    transition:.3s;
+}
+.open-btn i
+{
+    vertical-align: middle;
+    transition:.3s;
+}
+.link-open
+{
+    color:white !important;
+}
+.open-btn:hover
+{
+    background: #0e9e0e;
+}
+.open-btn:hover i
+{
+    transform: translateX(3px);
+    display: inline-block;
+}
 .edit-button
 {
     float: right;
