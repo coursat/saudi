@@ -27,3 +27,5 @@ Route::get('/username/info','UserController@info');
 Route::get('/username/edit-profile','UserController@edit');
 /*communities Routes*/
 Route::get('/communities','CommunityController@all');
+/* Search Pages */
+Route::get('/search','SearchController@index');
