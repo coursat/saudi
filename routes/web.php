@@ -29,3 +29,6 @@ Route::get('/username/edit-profile','UserController@edit');
 Route::get('/communities','CommunityController@all');
 /* Search Pages */
 Route::get('/search','SearchController@index');
+
+
+Route::post('word','SearchController@result');

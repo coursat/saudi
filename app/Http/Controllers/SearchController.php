@@ -8,7 +8,13 @@ class SearchController extends Controller
 {
     public function index()
     {
-        $result= course::whereRaw('MATCH (`title`,`desc`) AGAINST ("كورس","فوتوشوب")')->get();
-        return view("visitor.search")->with('data',$result);
+        return view("visitor.search");
+    }
+    public function result(Request $request)
+    {
+
+        $res = course::whereRaw('match (title, description) against (? in boolean mode)', [$request]);
+        return $res;
+
     }
 }

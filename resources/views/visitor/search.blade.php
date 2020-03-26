@@ -2,7 +2,9 @@
 @section('page_title', 'Search')
 @section("content")
 Search Page
-@foreach ($data as $user)
-    <p>{{ $user->title }}</p>
-@endforeach
+<form action="/word" method="POST">
+    {{csrf_field()}}
+    <input type="text" name="search">
+    <input type="submit" value="Search">
+</form>
 @endsection
