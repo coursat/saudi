@@ -61,6 +61,24 @@
     @yield('content')
     </div>
     @include("inc.footer")
+    <script>
+        @yield("script")
+
+         </script>
+         <script>
+                        $('#modal-center').on('shown.bs.modal', function ()
+                                {
+                                    $('#word').focus();
+                                })
+               $("#searchform").submit(function(e)
+                {
+                    e.preventDefault();
+                    var word = $("#word").val();
+                    joined = word.replace(' ','+');
+                    window.location.href = "/?search_for="+joined;
+                });
+
+         </script>
 </body>
 
 </html>

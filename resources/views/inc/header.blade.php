@@ -51,6 +51,26 @@
                     <span class="icon-feather-x icon-small uk-hidden@s"
                         uk-toggle="target: .header-widget ; cls: is-active"> </span>
 
+                    <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>Search</a>
+
+
+                     <div id="modal-center" class="uk-flex-top" uk-modal>
+
+                        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                                <button class="uk-modal-close-default" type="button" uk-close></button>
+                                <p>
+
+                                    <form  method="get" id="searchform" action="?search_for=">
+                                        <input minlength="2" autofocus required type="text"  id="word" name="search" required="" autocomplete="off">
+                                        <div id="error1"></div>
+                                        <div id="error"></div>
+                                        <input id="searchSubmit" type="submit" value="Search">
+                                    </form>
+                                </p>
+                        </div>
+
+                     </div>
+
 
                     <a href="#" class="header-widget-icon"
                         uk-tooltip="title: My Courses ; pos: bottom ;offset:21">
